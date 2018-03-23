@@ -1,2 +1,5 @@
 ﻿#pragma once
-enum class direction { UP, DOWN, LEFT, RIGHT };
+
+
+enum class direction { UP, DOWN, LEFT, RIGHT, STOP };
+
