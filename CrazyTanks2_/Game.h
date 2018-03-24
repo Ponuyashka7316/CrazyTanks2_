@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿#ifndef GAME
+#define GAME
+
 #include "Tank.h"
 #include "Map.h"
 #include "Bullet.h"
@@ -20,7 +22,7 @@ private:
 	int score_ = 0;
 };
 
-
+#endif
 
 
 

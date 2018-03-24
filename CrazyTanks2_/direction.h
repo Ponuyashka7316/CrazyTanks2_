@@ -1,4 +1,7 @@
-﻿#pragma once
+﻿#ifndef DIR
+#define DIR
+
+
 
 
 enum class direction { 
@@ -9,3 +12,4 @@ enum class direction {
 	STOP 
 };
 
+#endif // !DIR

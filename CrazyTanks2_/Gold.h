@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef GOLD
+#define GOLD
 
 #include "Item.h"
 
@@ -9,4 +10,4 @@ public:
 	~Gold();
 private:
 };
-
+#endif

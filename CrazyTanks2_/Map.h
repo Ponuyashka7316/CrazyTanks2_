@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef MAP
+#define MAP
 #include <iostream>
 #include "Wall.h"
 #include "Gold.h"
@@ -18,4 +19,4 @@ public:
 	Item map[n][m];
 };
 
-
+#endif

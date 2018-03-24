@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PA
+#define PA
 #include "Map.h"
 #include "Bullet.h"
 class PlayerAction //:public IAction
@@ -11,3 +12,5 @@ public:
 private:
 
 };
+
+#endif

@@ -1,4 +1,7 @@
-﻿#pragma once
+﻿#ifndef EA
+#define EA
+
+
 #include "Tank.h"
 #include "Map.h"
 #include "Bullet.h"
@@ -11,3 +14,5 @@ public:
 	void Shot(Tank& tank, Map& map);
 	~EnemyAction();
 };
+
+#endif

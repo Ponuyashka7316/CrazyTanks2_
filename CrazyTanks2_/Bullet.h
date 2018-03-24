@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef BLT
+#define BLT
 
 #include "Item.h"
 #include "direction.h"
@@ -27,3 +28,5 @@ private:
 //	setX(x);
 //	setY(y);
 //};
+
+#endif

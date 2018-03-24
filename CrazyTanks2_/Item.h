@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef ITEM
+#define ITEM
 
 #include "Item.h"
 #include "direction.h"
@@ -17,3 +18,4 @@ public:
 	void setX(int x);
 	void setY(int y);
 };
+#endif

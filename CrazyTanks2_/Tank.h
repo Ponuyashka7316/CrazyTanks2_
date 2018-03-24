@@ -1,5 +1,5 @@
-﻿#pragma once
-//
+﻿#ifndef TANK
+#define TANK
 #include "direction.h"
 #include "Item.h"
 
@@ -18,4 +18,6 @@ public:
 	//Tank(IAction* comp) : action(comp) {}
 	~Tank();
 };
+
+#endif
 

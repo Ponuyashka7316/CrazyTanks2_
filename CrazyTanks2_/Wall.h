@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef WALL
+#define WALL
 #include "Item.h"
 
 class Wall :public Item
@@ -9,7 +10,7 @@ public:
 private:
 	//char value = char(219);
 };
-
+#endif
 
 
 
