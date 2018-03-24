@@ -12,7 +12,5 @@ private:
 };
 
 
-Wall::~Wall()
-{
-}
+
 

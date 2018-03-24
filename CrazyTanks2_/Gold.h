@@ -1,5 +1,4 @@
-﻿#ifndef N
-#define N
+﻿#pragma once
 
 #include "Item.h"
 
@@ -13,4 +12,3 @@ private:
 
 };
 
-#endif
