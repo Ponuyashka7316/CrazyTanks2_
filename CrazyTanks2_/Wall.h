@@ -4,9 +4,8 @@
 class Wall :public Item
 {
 public:
-	Wall() { value = char(219); }
+	Wall();
 	~Wall();
-
 private:
 	//char value = char(219);
 };

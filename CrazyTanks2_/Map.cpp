@@ -7,6 +7,10 @@
 #include "Map.h"
 #include <time.h>
 
+Map::~Map() 
+{
+};
+
 Map::Map(vector<Tank>& enemytanks, Tank& playerTank)
 {
 	srand(time(NULL));
@@ -37,8 +41,8 @@ Map::Map(vector<Tank>& enemytanks, Tank& playerTank)
 	}
 
 	map[n - 2][m / 2 + 2] = playerTank;
-	playerTank.x_ = n - 2;
-	playerTank.y_ = m / 2 + 2;
+	playerTank.setX(n - 2) ;
+	playerTank.setY(m / 2 + 2);
 
 	int x;
 	int y;
@@ -52,8 +56,8 @@ Map::Map(vector<Tank>& enemytanks, Tank& playerTank)
 			if (map[x][y].value == ' ')
 			{
 				map[x][y] = Tank();
-				tank.x_ = x;
-				tank.y_ = y;
+				tank.setX(x);
+				tank.setY(y);
 				break;
 			}
 		}

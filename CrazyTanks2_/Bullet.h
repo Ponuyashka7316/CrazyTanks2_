@@ -6,17 +6,24 @@ class Bullet :public Item
 {
 public:
 	Bullet(direction d, int x, int y, char val = 'o')
-	{ 
-		value = val; 
+	{
+		value = val;
 		dir = d;
-		x_ = x;
-		y_ = y;
+		setX(x);
+		setY(y);
 	};
 	~Bullet();
-	int x_;
-	int y_;
-
+	
+	
 private:
+	
 	//direction dir;
 };
 
+//Bullet::Bullet(direction d, int x, int y, char val = 'o')
+//{
+//	value = val;
+//	dir = d;
+//	setX(x);
+//	setY(y);
+//};

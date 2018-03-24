@@ -4,3 +4,8 @@
 Wall::~Wall()
 {
 }
+
+Wall::Wall() 
+{ 
+	value = char(219);
+}

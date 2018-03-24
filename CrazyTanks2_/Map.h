@@ -6,7 +6,6 @@
 #include<vector>
 #include <conio.h>
 
-
 const int n = 30;
 const int m = 80;
 using namespace std;
@@ -15,7 +14,6 @@ class Map
 public:
 	Map(vector<Tank>& enemytanks, Tank& playerTank);
 	~Map();
-
 	//private:
 	Item map[n][m];
 };

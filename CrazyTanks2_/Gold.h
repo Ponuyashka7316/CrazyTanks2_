@@ -5,10 +5,8 @@
 class Gold :public Item
 {
 public:
-	Gold() { value = 'W'; };
+	Gold();
 	~Gold();
-
 private:
-
 };
 

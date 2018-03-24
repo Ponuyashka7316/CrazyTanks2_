@@ -6,3 +6,8 @@ Gold::~Gold()
 {
 }
 
+
+Gold::Gold() 
+{ 
+	value = 'W'; 
+};

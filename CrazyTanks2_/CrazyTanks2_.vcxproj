@@ -152,6 +152,7 @@
     <ClInclude Include="EnemyAction.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Gold.h" />
+    <ClInclude Include="headers.h" />
     <ClInclude Include="IAction.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Map.h" />
