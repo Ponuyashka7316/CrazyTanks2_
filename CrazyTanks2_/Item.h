@@ -11,7 +11,8 @@ private:
 	int y_;
 public:
 	direction dir = direction::STOP;
-	char value = ' ';
+	char value = 'o';
+	Item() { value = ' '; };
 	~Item();
 	int getX() const;
 	int getY() const;

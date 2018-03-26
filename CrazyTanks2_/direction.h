@@ -1,9 +1,6 @@
 ﻿#ifndef DIR
 #define DIR
 
-
-
-
 enum class direction { 
 	UP, 
 	DOWN,

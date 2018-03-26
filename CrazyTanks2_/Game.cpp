@@ -96,6 +96,7 @@ void Game::checkColisions(Map& map, Game& game, vector<Tank>& enemies, Tank& pla
 				map.map[i][j] = Item();
 			}
 			////////////////////////////////////////////////////////////////////////////////
+			char val = '*';
 			if (map.map[i][j].value == '*' && map.map[i][j].dir == direction::UP)
 			{
 				if (map.map[i - 1][j].value == 'X' || map.map[i - 1][j].value == char(219)) {
@@ -108,7 +109,7 @@ void Game::checkColisions(Map& map, Game& game, vector<Tank>& enemies, Tank& pla
 
 				}
 				else
-					map.map[i - 1][j] = Bullet(direction::UP, i - 1, j);
+					map.map[i - 1][j] = Bullet(direction::UP, i - 1, j, val);
 				map.map[i][j] = Item();
 			}
 
@@ -122,7 +123,7 @@ void Game::checkColisions(Map& map, Game& game, vector<Tank>& enemies, Tank& pla
 
 				}
 				else
-					map.map[i + 1][j] = Bullet(direction::DOWN, i + 1, j);
+					map.map[i + 1][j] = Bullet(direction::DOWN, i + 1, j, val);
 				map.map[i][j] = Item();
 			}
 			else if (map.map[i][j].value == '*'&& map.map[i][j].dir == direction::LEFT)
@@ -135,7 +136,7 @@ void Game::checkColisions(Map& map, Game& game, vector<Tank>& enemies, Tank& pla
 
 				}
 				else
-					map.map[i][j - 1] = Bullet(direction::LEFT, i, j - 1);
+					map.map[i][j - 1] = Bullet(direction::LEFT, i, j - 1, val);
 				map.map[i][j] = Item();
 			}
 			else if (map.map[i][j].value == '*'&& map.map[i][j].dir == direction::RIGHT)
@@ -148,7 +149,7 @@ void Game::checkColisions(Map& map, Game& game, vector<Tank>& enemies, Tank& pla
 
 				}
 				else
-					map.map[i][j + 1] = Bullet(direction::RIGHT, i, j + 1);
+					map.map[i][j + 1] = Bullet(direction::RIGHT, i, j + 1, val);
 				map.map[i][j] = Item();
 			}
 		}

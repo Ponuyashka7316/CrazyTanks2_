@@ -14,19 +14,8 @@ public:
 		setY(y);
 	};
 	~Bullet();
-	
-	
-private:
-	
-	//direction dir;
+
 };
 
-//Bullet::Bullet(direction d, int x, int y, char val = 'o')
-//{
-//	value = val;
-//	dir = d;
-//	setX(x);
-//	setY(y);
-//};
 
 #endif

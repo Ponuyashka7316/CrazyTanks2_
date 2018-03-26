@@ -153,7 +153,6 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Gold.h" />
     <ClInclude Include="headers.h" />
-    <ClInclude Include="IAction.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="PlayerAction.h" />
@@ -169,7 +168,6 @@
     <ClCompile Include="EnemyAction.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Gold.cpp" />
-    <ClCompile Include="IAction.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="PlayerAction.cpp" />
