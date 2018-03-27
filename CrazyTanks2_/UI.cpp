@@ -23,7 +23,7 @@ void UI::render(Map* map)
 }
 
 
-void UI::setcur(int x, int y)		//set coursor to x y 
+void UI::setCur(int x, int y)		//set coursor to x y 
 {
 	COORD coord;
 	coord.X = x;
