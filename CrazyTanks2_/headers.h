@@ -13,8 +13,7 @@
 #include "Game.h"
 #include "Bullet.h"
 #include "Tank.h"
-#include "EnemyAction.h"
-#include "PlayerAction.h"
+#include "TankAction.h"
 #include "UI.h"
 
 #endif
